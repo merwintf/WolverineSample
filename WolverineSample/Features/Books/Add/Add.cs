@@ -58,7 +58,6 @@ public static class Handler
         };
 
         db.Books.Add(entity);
-        throw new Exception("Test");
         return entity.Id;
     }
 }
